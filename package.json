@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "node": "^20.6.0",
+    "nodemon": "^3.0.1"
+  },
+  "name": "capstone-public-api",
+  "version": "1.0.0",
+  "description": "Set up a Node/Express/Axios App to communicate with a public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deniz Deli",
+  "license": "ISC"
+}
