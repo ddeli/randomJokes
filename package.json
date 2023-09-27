@@ -6,14 +6,20 @@
     "node": "^20.6.0",
     "nodemon": "^3.0.1"
   },
+
+  "engines": {
+    "node": ">=14"
+  },
+
   "name": "capstone-public-api",
   "version": "1.0.0",
   "description": "Set up a Node/Express/Axios App to communicate with a public API",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "author": "Deniz Deli",
   "license": "ISC"
+
 }
