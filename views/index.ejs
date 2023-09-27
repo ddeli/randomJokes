@@ -1,1 +1,22 @@
-<h1>Random Jokes</h1>
+<%- include('partials/header') %>
+
+<div class="px-4 py-5 my-5 text-center">
+
+    <%if(locals.content){%>
+       <h2><%=content.setup%></h2>
+        <h3><%=content.punchline%></h3>
+    <% } %>
+    
+    <form action="/bringMeMyJoke" method="GET";>
+        <input type="submit" class="btn btn-primary btn-lg px-4 gap-3" name="today" value="Get a random Joke!" />
+    </form>
+    
+    <!-- <form type=”hidden” id="myForm"  method="get">
+        <input  id="get" type="submit" value="Get a random Joke!" formaction="/bringMeMyJoke">
+    </form> -->
+
+</div>
+
+
+
+<%- include('partials/footer') %>
